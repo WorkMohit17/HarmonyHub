@@ -3,7 +3,6 @@ package com.example.HarmonyHUB.dtos.album;
 import lombok.*;
 
 import java.time.LocalDate;
-import java.util.List;
 
 @Getter
 @Setter
