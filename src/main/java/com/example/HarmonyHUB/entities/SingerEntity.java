@@ -37,5 +37,5 @@ public class SingerEntity {
 
     @OneToMany(mappedBy = "singer", cascade = CascadeType.ALL
                 , orphanRemoval = true, fetch = FetchType.LAZY)
-    private List<SongEntity> songs;
+    private List<SongEntity> songs = new ArrayList<>();
 }
